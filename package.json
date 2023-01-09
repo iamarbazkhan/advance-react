@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon  lib/server.js",
-    "webpack":"webpack-dev-server",
+    "webpack": "webpack-dev-server",
     "test": "jest"
   },
   "devDependencies": {
@@ -20,6 +20,7 @@
     "eslint": "^8.31.0",
     "eslint-plugin-react": "^7.31.11",
     "html-webpack-plugin": "^5.5.0",
+    "react-test-renderer": "^18.2.0",
     "style-loader": "^3.3.1",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
