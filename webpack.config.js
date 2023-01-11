@@ -1,9 +1,16 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const port = process.env.PORT || 8080;
+const path = require("path")
 
 module.exports = {
   mode: 'development',  
+  resolve:{
+modules:[
+  path.resolve('./lib'),
+  path.resolve('./node_modules')
+]
+  },
   entry: './lib/components/index.js',
   output: {
     filename: 'bundle.[hash].js'

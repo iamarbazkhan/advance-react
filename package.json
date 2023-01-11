@@ -4,7 +4,7 @@
   "main": "lib/server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon  lib/server.js",
+    "dev": "NODE_PATH=./lib nodemon  lib/server.js",
     "webpack": "webpack-dev-server",
     "test": "jest"
   },
